@@ -1,0 +1,26 @@
+package monedas;
+
+import javax.swing.JOptionPane;
+
+public class ConvercionInversa {
+
+	public void DolarAPeso(double valor) {
+		double mDolar = valor * 225.00;
+	}
+	
+	public void EuroAPeso(double valor) {
+		double meuro = valor * 244.00;
+	}
+
+	public void LibraAPeso(double valor) {
+		double mDolar = valor * 269.03;
+	}
+
+	public void YenAPeso(double valor) {
+		double mDolar = valor * 1.61;
+	}
+
+	public void WonAPeso(double valor) {
+		double mDolar = valor * 0.16;
+	}
+}

@@ -1,0 +1,47 @@
+package principal;
+
+import javax.swing.JOptionPane;
+
+import monedas.ConversorMonedas;
+
+
+public class Principal {
+	public static void main(String[] args) {
+		
+		ConversorMonedas moneda = new ConversorMonedas();
+		
+		while(true) {
+			String opciones = (JOptionPane.showInputDialog(null,"Seleccionar una opción de Conversión ", "Menú", 
+								JOptionPane.QUESTION_MESSAGE, null, new Object[]
+								{"Conversor de Monedas", "Conversor de Temperatura"}, "Selección")).toString();
+			
+			switch(opciones) {
+				case "Conversor de Monedas":
+					String input = JOptionPane.showInputDialog("Ingrese el monto a convertir: ");
+					
+					if(Valido(input) == true) {
+						double Minput = Double.parseDouble(input);
+						
+						
+						
+					}
+				case "Conversor de Temperatura":
+					
+			}
+		}
+	}	
+	
+	public static boolean Valido(String input) {
+		boolean resultado = false;
+		try {
+			double pp = Double.parseDouble(input);
+			
+			if(pp >= 0 || pp < 0) {
+				resultado = true;
+			}
+		}catch(NumberFormatException e) {
+			resultado = false;
+		}
+		return resultado;
+	}
+}

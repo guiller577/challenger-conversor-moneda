@@ -1,0 +1,31 @@
+package monedas;
+
+import javax.swing.JOptionPane;
+
+public class ConvercionInversa {
+
+	public void DolarAPeso(double valor) {
+		double mDolar = valor * 225.00;
+		mDolar = (double) Math.round(mDolar * 100d)/100;
+	}
+	
+	public void EuroAPeso(double valor) {
+		double mEuro = valor * 244.00;
+		mEuro = (double) Math.round(mEuro * 100d)/100;
+	}
+
+	public void LibraAPeso(double valor) {
+		double mLibra = valor * 269.03;
+		mLibra = (double) Math.round(mLibra * 100d)/100;
+	}
+
+	public void YenAPeso(double valor) {
+		double mYen = valor * 1.61;
+		mYen = (double) Math.round(mYen * 100d)/100;
+	}
+
+	public void WonAPeso(double valor) {
+		double mWon = valor * 0.16;
+		mWon = (double) Math.round(mWon * 100d)/100;
+	}
+}

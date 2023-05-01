@@ -1,0 +1,10 @@
+package principal;
+
+import javax.swing.JOptionPane;
+
+public class Principal {
+	
+	monedas dinero = new monedas();
+	
+	    	
+}

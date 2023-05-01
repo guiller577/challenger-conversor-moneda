@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\guill\OneDrive\Escritorio\challenger-conversor-moneda\.metadata\.plugins\org.eclipse.jdt.core
+3411933136.index
+1865797976.index
+3708373023.index
